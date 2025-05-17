@@ -1,0 +1,29 @@
+{
+    "users": [
+        {
+            "user_id": "user1",
+            "name": "用户1"
+        },
+        {
+            "user_id": "user2",
+            "name": "用户2"
+        }
+    ],
+    "papers": [
+        {
+            "paper_id": "paper3",
+            "title": "水文预测方法",
+            "authors": ["作者1", "作者3"],
+            "keywords": ["水文", "预测", "方法"]
+        },
+        {
+            "paper_id": "paper4",
+            "title": "水资源优化",
+            "authors": ["作者2", "作者4"],
+            "keywords": ["水资源", "优化", "分配"]
+        }
+    ],
+    "knowledge_graph": {
+        "relations": ["paper_author", "paper_keyword"]
+    }
+} 
